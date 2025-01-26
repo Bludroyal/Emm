@@ -2,11 +2,11 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const config = {
-	SESSION_ID: process.env.SESSION_ID || '',
+	SESSION_ID: process.env.SESSION_ID || 'NIKKA_73_82_63',
 	SUDO: process.env.SUDO || '',
 	API_ID: process.env.API_ID || 'https://xstro-api-4fb28ece11a9.herokuapp.com',
-	BOT_INFO: process.env.BOT_INFO || 'NIKKA;MD',
-	STICKER_PACK: process.env.STICKER_PACK || 'H4KI;XER',
+	BOT_INFO: process.env.BOT_INFO || 'NIKKA_73_82_63',
+	STICKER_PACK: process.env.STICKER_PACK || '☯︎ᴇᴍᴍ ʏʏ✌︎💨',
 	WARN_COUNT: process.env.WARN_COUNT || 3,
 	TIME_ZONE: process.env.TIME_ZONE || 'Africa/Lagos',
 	DEBUG: process.env.DEBUG || false,
